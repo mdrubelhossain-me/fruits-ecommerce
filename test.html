@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Navigation Tabs</title>
+  <style>
+    /* styles.css */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+  </style>
+</head>
+<body>
+  <div class="tabs">
+    <div class="tab" id="tab1">Tab 1</div>
+    <div class="tab" id="tab2">Tab 2</div>
+  </div>
+  <div class="tab-content" id="content1">Content for Tab 1</div>
+  <div class="tab-content" id="content2">Content for Tab 2</div>
+  <div class="tab-content" id="content3">Content for Tab 3</div>
+  <script src="script.js"></script>
+  <script>
+    // script.js
+const tabs = document.querySelectorAll('.tab');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => {
+    // Remove active class from all tabs and tab contents
+    tabs.forEach(t => t.classList.remove('active'));
+    tabContents.forEach(content => content.classList.remove('active'));
+
+    // Add active class to the clicked tab and its corresponding content
+    tab.classList.add('active');
+    tabContents[index].classList.add('active');
+  });
+});
+
+  </script>
+</body>
+</html>

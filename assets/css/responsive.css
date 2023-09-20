@@ -1,0 +1,326 @@
+@media only screen and (max-width: 992px) {
+
+    /*
+    Navbar Start
+    --------------------------------*/
+    .desktop-navigation {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    /*
+    Category Menu Start
+    --------------------------------*/
+    .category-menu-area {
+        display: none;
+    }
+
+    /*
+    Hero Section Start
+    --------------------------------*/
+    .hero-section-slider {
+        width: 100% !important;
+    }
+
+    .hero-section-slider .carousel-inner {
+        height: 60vh;
+    }
+
+    /*
+    Subscription Area Start
+    --------------------------------*/
+    .subscripion-area form {
+        margin-top: 0px;
+    }
+
+    /*
+    Product Details Tab Content
+    --------------------------------*/
+    .product-details-tab .tab-content .reviewer-section .reviewer-photo {
+        width: 100%;
+        height: 110px;
+    }
+
+    /*
+    Login Page Start
+    --------------------------------*/
+    .login-section .login-form-body {
+        width: 70%;
+    }
+
+    /*
+    Registration Page Start
+    --------------------------------*/
+    .registration-section .registration-form-body {
+        width: 70%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /*
+    Header-top Start
+    --------------------------------*/
+    .header-top {
+        padding: 10px 0px 10px 15px;
+    }
+
+    .header-top .social-link {
+        display: none !important;
+    }
+
+    .header-top .dropdown {
+        display: none !important;
+    }
+
+    /*
+    Navbar Start
+    --------------------------------*/
+    .desktop-navigation {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    /*
+    Shopping Cart Start
+    --------------------------------*/
+    .shoppint-cart-area .offcanvas {
+        width: 90% !important;
+    }
+
+    /*
+    Off Canvas Search Start
+    --------------------------------*/
+    .offcanvas-search .offcanvas {
+        width: 90% !important;
+    }
+
+    /*
+    Category Menu Start
+    --------------------------------*/
+    .category-menu-area {
+        display: none;
+    }
+
+    /*
+    Hero Section Start
+    --------------------------------*/
+    .hero-section-slider {
+        width: 100%;
+    }
+
+    .hero-section-slider .carousel-inner {
+        height: 60vh;
+    }
+
+    /*
+    Popular Product Area Start
+    --------------------------------*/
+    .product-area .view-all-btn {
+        float: left;
+    }
+
+    /*
+    Hot Deal Product Area Start
+    --------------------------------*/
+    .countdown-area .timer {
+        justify-content: center;
+    }
+
+    .countdown-area .time-block {
+        border-radius: 4px;
+        padding: 5px 10px;
+    }
+
+    .countdown-area .time-block .time {
+        font-size: var(--size-md);
+    }
+
+    .countdown-area .time-block .label {
+        font-size: var(--size-sm);
+    }
+
+    #hot-deal-discountProduct .add-to-cart-area .add-to-cart-btn {
+        padding: 10px 14px;
+    }
+
+    #hot-deal-discountProduct #decrease-btn {
+        font-size: var(--size-md);
+    }
+
+    #hot-deal-discountProduct #increase-btn {
+        font-size: var(--size-md);
+    }
+
+    /*
+    Make Call Start
+    --------------------------------*/
+    .make-call .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*
+    Blog & News Area Start
+    --------------------------------*/
+    .blog-area .view-all-btn {
+        float: left;
+    }
+
+    /*
+    Testimonial Area Start
+    --------------------------------*/
+    .testimonail-item {
+        padding: 10% 5%;
+    }
+
+    /*
+    Subscription Area Start
+    --------------------------------*/
+    .subscripion-area form button {
+        padding: 10px 10px;
+    }
+
+    .subscripion-area form {
+        margin-top: 0px;
+    }
+
+    /*
+    Product Details Tab Content
+    --------------------------------*/
+    .product-details-tab .tab-content .reviewer-section .reviewer-photo {
+        width: 120px;
+        height: 130px;
+    }
+
+    /*
+    View Shopping Cart
+    --------------------------------*/
+    .shopping-cart .uptdate-cart-btn-area {
+        text-align: start;
+    }
+
+    /*
+    Login Page Start
+    --------------------------------*/
+    .login-section .login-form-body {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    /*
+    Registration Page Start
+    --------------------------------*/
+    .registration-section .registration-form-body {
+        width: 100%;
+    }
+
+    /*
+    Shop Page Start
+    --------------------------------*/
+    .product-list-view .product-item .product-thumbnail {
+        width: 90%;
+        height: auto;
+    }
+
+    .product-list-view .product-item .product-content {
+        padding: 10px;
+    }
+
+    /*
+    Footer Start
+    --------------------------------*/
+    .main-footer .footer-bottom .copyright p {
+        text-align: start;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    /*
+    Header-top Start
+    --------------------------------*/
+    .header-top {
+        padding: 10px 0px 10px 15px;
+    }
+
+    .header-top a {
+        font-size: var(--size-sm);
+    }
+
+    .header-top .social-link {
+        display: none !important;
+    }
+
+    .header-top .dropdown {
+        display: none !important;
+    }
+
+    /*
+    Navbar Start
+    --------------------------------*/
+    .desktop-navigation {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    /*
+    Category Menu Start
+    --------------------------------*/
+    .category-menu-area {
+        display: none;
+    }
+
+    /*
+    Hero Section Start
+    --------------------------------*/
+    .hero-section-slider {
+        width: 100%;
+    }
+
+    .hero-section-slider .carousel-inner {
+        height: 60vh;
+    }
+
+    /*
+    Login Page Start
+    --------------------------------*/
+    .login-section .login-form-body {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    /*
+    Registration Page Start
+    --------------------------------*/
+    .registration-section .registration-form-body {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+}
